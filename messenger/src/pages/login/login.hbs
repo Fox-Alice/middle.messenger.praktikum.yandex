@@ -1,9 +1,13 @@
-<body class="page login">
+<section class="page login">
     <h1 class="page__title login__title">Вход</h1>
     <form class="page__form login__form">
         <label class="page__label login__label" for="name-input">Логин</label>
         <input class="page__input login__input" type="text" name="name" id="name-input" required>
-        <span class="page__form-error login__form-error">Неверный логин</span>
+        <span class="page__form-error login__form-error page__form-error_active">Неверный логин</span>
+        <label class="page__label login__label" for="password-input">Пароль</label>
+        <input class="page__input login__input" type="password" name="password" id="password-input" required>
+        <span class="page__form-error login__form-error">Неверный пароль</span>
+        <button class="page__button login__button" type="submit">Авторизоваться</button>
+        <a class="page__link login__link" href="#">Нет аккаунта?</a>
     </form>
-
-</body>
+</section>
