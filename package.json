@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "vite",
-    "build": "tsc && vite build",
+    "dev": "vite",
+    "start": "tsc && vite build",
     "preview": "vite preview"
   },
   "engines": {
