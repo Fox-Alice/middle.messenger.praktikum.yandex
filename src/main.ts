@@ -21,7 +21,6 @@ function navigate(page: string) {
    //@ts-ignore
   const [source, context] = pages[page];
   const container = document.getElementById('app');
-  console.log(container);
    //@ts-ignore
   container.innerHTML = Handlebars.compile(source)(context);
 }
@@ -37,6 +36,3 @@ document.addEventListener('click', e => {
   e.stopImmediatePropagation();
 };
 })
-
-console.log(pages);
-
