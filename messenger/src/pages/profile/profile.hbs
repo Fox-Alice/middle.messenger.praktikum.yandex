@@ -1,0 +1,24 @@
+<section class="page profile">
+    <div class="profile__return-container">
+        <a class="profile__return-link" href="#"></a>
+    </div>
+    <div class="profile__container">
+        <img class="profile__avatar" src="./assets/profile__avatar.svg" alt="Аватар">
+        <h1 class="profile__first-name">Иван</h1>
+        <ul class="profile__data-list">
+            {{> Item label="Почта" data="pochta@yandex.ru"}}
+            {{> Item label="Логин" data="ivanivanov"}}
+            {{> Item label="Имя" data="Иван"}}
+            {{> Item label="Фамилия" data="Иванов"}}
+            {{> Item label="Имя в чате" data="Иван"}}
+            {{> Item label="Телефон" data="+7 (909) 967 30 30"}}
+        </ul>
+        <ul class="profile__link-list">
+            {{> Item list="link" adress="#" link="Изменить данные"}}
+            {{> Item list="link" adress="#" link="Изменить пароль"}}
+            {{> Item list="link" exit="exit" adress="#" link="Выйти"}}
+        </ul>
+
+
+    </div>
+</section>

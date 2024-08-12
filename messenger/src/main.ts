@@ -4,8 +4,12 @@ import * as Pages from './index';
 
 
 const pages = {
-  'login': [ Pages.Login, {test: 123} ],
+  'login': [ Pages.Login],
   'register': [Pages.Register],
+  'profile': [Pages.Profile],
+  'chat' : [Pages.Chat],
+  '404' : [Pages.NotFound],
+  '500' : [Pages.ServerError],
   'nav': [Pages.Nav]
 };
 

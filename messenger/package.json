@@ -9,9 +9,10 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "handlebars": "4.7.8",
+    "less": "^4.2.0",
     "typescript": "^5.2.2",
-    "vite": "^5.3.4",
-    "handlebars": "4.7.8"
+    "vite": "^5.3.4"
   },
   "dependencies": {
     "vite-plugin-handlebars": "^2.0.0"
