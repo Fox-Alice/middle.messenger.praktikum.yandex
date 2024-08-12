@@ -8,5 +8,5 @@
 
 ссылка на проект https://middlemessenger.netlify.app/
 
-Сборка проекта npm run build
-Режим разработки npm run start
+Сборка проекта npm run start
+Режим разработки npm run dev
