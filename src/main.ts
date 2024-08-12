@@ -17,22 +17,23 @@ Object.entries(Components).forEach(([name, component]) => {
   Handlebars.registerPartial(name, component);
 });
 
-function navigate(page: string) {
-  const [source, context] = pages[page];
-  const container = document.getElementById('app');
-  console.log(container);
-  const templatingFunction = Handlebars.compile(source);
-  container.innerHTML = templatingFunction(context);
-}
+// function navigate(page: string) {
+//   const [source, context] = pages[page];
+//   const container = document.getElementById('app');
+//   console.log(container);
+//   container.innerHTML = Handlebars.compile(source)(context);
+// }
 
-document.addEventListener('DOMContentLoaded', () => navigate('nav'));
+// document.addEventListener('DOMContentLoaded', () => navigate('nav'));
 
-document.addEventListener('click', e => {
-  const page = e.target.getAttribute('page');
-  if (page) {
-    navigate(page);
-  e.preventDefault();
-  e.stopImmediatePropagation();
-};
-})
+// document.addEventListener('click', e => {
+//   const page = e.target.getAttribute('page');
+//   if (page) {
+//     navigate(page);
+//   e.preventDefault();
+//   e.stopImmediatePropagation();
+// };
+// })
+
+console.log(pages);
 
