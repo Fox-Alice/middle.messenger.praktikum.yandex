@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "engines": {
-    "node": "v20.16.0"
+    "node": "v18.0.0"
   },
   "devDependencies": {
     "handlebars": "4.7.8",
