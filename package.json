@@ -9,7 +9,7 @@
 "dev": "vite"
   },
   "engines": {
-    "node": "v18.16.0"
+    "node": "v16.20.2"
   },
   "devDependencies": {
     "handlebars": "4.7.8",
