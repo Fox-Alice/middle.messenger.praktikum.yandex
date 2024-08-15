@@ -1,0 +1,9 @@
+<section class="page login">
+    <h1 class="page__title login__title">Вход</h1>
+    <form class="page__form login__form">
+        {{> Input page="login" label="Логин" type="text" name="login" error-label="Неверный логин" value="ivanivanov"}}
+        {{> Input page="login" label="Пароль" type="password" name="password" error-label="Неверный пароль"}}
+        {{> Button label="Авторизоваться" page="login" type="submit"}}
+        {{> Link page="login" link-adress="#" label="Нет аккаунта?"}}
+    </form>
+</section>

@@ -1,0 +1,14 @@
+<section class="page register">
+    <h1 class="page__title register__title">Регистрация</h1>
+    <form class="page__form register__form">
+        {{> Input page="register" name="email" type="text" label="Почта" error-label="Неверный формат почты" value="pochta@yandex.ru"}}
+        {{> Input page="register" name="login" type="text" label="Логин" error-label="Логин не может состоять более чем из 15 символов" value="ivanivanov"}}
+        {{> Input page="register" name="first_name" type="text" label="Имя" error-label="Имя не может состоять более чем из 15 символов" value="Иван"}}
+        {{> Input page="register" name="second_name" type="text" label="Фамилия" error-label="Фамилия не может состоять более чем из 25 символов" value="Иванов"}}
+        {{> Input page="register" name="phone" type="tel" label="Телефон" error-label="Неверный формат телефона" value="+7 (909) 967 30 30" }}
+        {{> Input page="register" name="password" type="password" label="Пароль" error-label="Пароль должен содержать хотя бы одну заглавную букву" error="page__input-error" value="••••••••••••"}}
+        {{> Input page="register" name="repeat-password" type="password" label="Пароль(еще раз)" error-label="Пароли не совпадают" error="page__input-error" value="••••••••••••" active="active"}}
+        {{> Button page="register" type="submit" label="Зарегистрироваться"}}
+        {{> Link page="register" link-adress="#" label="Войти"}}
+    </form>
+</section>
