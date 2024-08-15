@@ -10,6 +10,9 @@
   },
   "engines": {
     "node": "v18.20.4"
+    "start": "vite build && node ./server.cjs",
+    "build": "vite build",
+    "dev": "vite"
   },
   "devDependencies": {
     "handlebars": "4.7.8",
